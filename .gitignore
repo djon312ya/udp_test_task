@@ -1,0 +1,112 @@
+.env
+master.cfg
+slave.cfg
+
+#CubeMx
+.venv/
+.ipynb_checkpoints/
+build/
+*__pycache__*
+*.d
+*.mxproject
+*template.c
+*template.h
+*.log
+*.dat
+*.bak
+Template/
+Templates/
+examples*/
+docs/
+doc/
+NN/
+DSP/
+
+#sublime
+*.sublime-project
+*.sublime-workspace
+*.log
+*.txt
+
+#*.ioc
+
+!*.json
+!*.conf
+!*.ini
+# ---> C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ---> Qt
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+#Makefile*
+*-build-*
+
+# QtCreator
+
+*.autosave
+
+#QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+#CMake
+*.txt.user
+
+#gcc cross compiller
+gcc-arm-none-eabi*/
+
+#Eclipse
+.autotools
+.cproject
+.project
+.settings/
