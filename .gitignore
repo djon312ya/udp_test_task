@@ -26,7 +26,6 @@ DSP/
 *.sublime-project
 *.sublime-workspace
 *.log
-*.txt
 
 #*.ioc
 
